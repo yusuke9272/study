@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+    background-color: #fff;
+    font-family: SoDoSans, "Noto sans JP";
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* --------------------------------
+ヘッダー
+-------------------------------- */
+
+.header-container {
+    background-color: #fff;
+    padding: 0 40px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    /* box-shadow: 0 3px 1px 0 rgb(0 0 0 / 0%) */
+}
+
+.left-items, .right-items, ul {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 25px;
+}
+
+nav ul .nav {
+    padding: 0 15px;
+    font-size: 0.87rem;
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+}
+
+li .icon {
+    margin: 0 35px 0 0;
+}
+
+.stories {
+    padding: 0 25px;
+}
+
+.reserve {
+    padding: 0 10px 0 50px;
+}
+
+/* .stories {
+    border-left:1px solid #000000;
+} */
+
+
+
+/* --------------------------------
+メインビジュアル
+-------------------------------- */
+
+.flex-mainvisual {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+}
+
+.left-visual img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.right-visual img {
+    height: 50%;
+    display: flex; 
+    gap: 8px;   
+}
+
+/* --------------------------------
+WHA'S BREWING
+-------------------------------- */
+
+#article-area {
+    margin: 80px 0 50px 0;
+}
+
+.title {
+    text-align: center;
+    font-family: SoDoSans;
+    font-weight: bold;
+    margin-bottom: 50px;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    color: #212121;
+}
+
+.article-flex {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.article-flex article {
+    margin-right: 8px;
+    border-radius: 10px;
+    box-shadow: 0.1px 1px 3px 1px rgba(175, 175, 175, 0.3);
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.article-flex article .article-text  {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    padding: 5px 5px 5px 10px;
+    width: 224px;
+    color: rgba(0, 0, 0, 0.87);
+
+}
+
+.article-flex article .article-data {
+    font-size: 0.7rem;
+    right: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+    /* padding: 20px 20px 0 0;
+    text-align: right; */
+}
+
+.article-flex article img {
+    width: 224px;
+    border-radius: 8px 12px 0 0;
+}
+
+.appeal {
+    display: flex;
+}
