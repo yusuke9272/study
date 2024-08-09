@@ -1,0 +1,11 @@
+.open直下の.contents
+
+初期状態
+body直下の.data-accのheightは168px
+
+2つ目のmenuを閉じた状態
+.data-accのheightは94px
+height：94pxに指定されているため、2つ目の中身が表示されない
+
+
+

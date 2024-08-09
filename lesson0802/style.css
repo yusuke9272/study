@@ -1,0 +1,12 @@
+.contents {
+    height: 0;
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: 800ms;
+    transition-timing-function: cubic-bezier(.4, .4, 0, 1);
+}
+
+.open > .contents {
+    height: auto;
+}
+
