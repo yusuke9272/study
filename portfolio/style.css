@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+
+body {
+    font-size: 1rem;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: 700px;
+	margin: auto;
+	display: block;
+}
+
+h1 {
+	margin-left: 80px;
+	size: 1rem;
+	font-family: sans-serif;
+	font-weight: 100;
+	margin-top: 30px;
+}
+
+main {
+	margin-top: 50px;
+}
+
+.first-flex {
+	display: flex;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.first-flex img {
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.first-flex img:last-of-type{
+	margin-top: 150px;
+}
+
+.second-flex {
+	display: flex;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.second-flex img {
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.second-flex img:last-of-type{
+	margin-top: 150px;
+}
+
+.third-flex {
+	display: flex;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.third-flex img {
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.third-flex img:last-of-type{
+	margin-top: 150px;
+}
+
+.img {
+	margin-top: 50px;
+}
+
+.forth-flex {
+	display: flex;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.forth-flex img {
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.forth-flex img:last-of-type{
+	margin-top: 150px;
+}
+
+.img:last-child {
+	margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+	img {
+		width: 500px;
+	}
+
+	.first-flex {
+		flex-direction: column;
+	}
+
+	.first-flex img {
+		margin: 0 auto;
+	}
+
+	.first-flex img:first-child {
+		padding-top: 50px;
+	}
+
+	.first-flex img:last-child {
+		padding-top: 50px;
+		margin-top: 0;
+	}
+
+	.second-flex {
+		flex-direction: column;
+	}
+
+	.second-flex img {
+		margin: 0 auto;
+	}
+
+	.second-flex img:first-child {
+		padding-top: 50px;
+	}
+
+	.second-flex img:last-child {
+		padding-top: 50px;
+		margin-top: 0;
+	}
+
+	.third-flex {
+		flex-direction: column;
+	}
+
+	.third-flex img {
+		margin: 0 auto;
+	}
+
+	.third-flex img:first-child {
+		padding-top: 50px;
+	}
+
+	.third-flex img:last-child {
+		padding-top: 50px;
+		margin-top: 0;
+	}
+	.forth-flex {
+		flex-direction: column;
+	}
+
+	.forth-flex img {
+		margin: 0 auto;
+	}
+
+	.forth-flex img:first-child {
+		padding-top: 50px;
+	}
+
+	.forth-flex img:last-child {
+		padding-top: 50px;
+		margin-top: 0;
+	}
+
+
+}
