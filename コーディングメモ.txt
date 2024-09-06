@@ -1,0 +1,61 @@
+img {
+	max-width: 100%;
+	height: auto;
+&amp;
+⇒&
+
+bodyに1rem;
+　　　color
+      font-family最後に「sans-serif」
+　　　※フォント統一であればbodyに
+
+html
+font-siza:100%;
+
+忘れ
+  <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキス">
+
+2020/01/01 カテゴリ1
+⇒ulをdisplay:flex;
+
+-------------------------------中級編②
+
+・CSSの頭に @charaset "UTF-8";
+・headタグ以降インデント
+・icon忘れ
+・font-familyはスペースを含む場合は「"」「'」を使う
+・bosy フォントサイズrem単位
+・背景画像の場合はcssにback-ground-image:url(パス)を使用
+・写真を横並びセクションのクラス名はitem-flex
+・wrapperはレイアウト的に、containerは意味的に使うことが多い。
+・continerにmarin 0 auto;忘れ
+・css 同じ設定の場合は　A, B {}
+・padding-top:100%
+・html 文章が長い場合はタグで改行し次の行にテキスト
+　⇒<p>
+      テキストテキストテキストテキストテキスト
+　　　テキストテキスト
+    </p>
+・セクションタグ忘れ
+・&amp;　文字化け対策
+・flexするものはflex-item
+・背景を半透明 background-color: rgba(0, 0, 0, 0.5);
+・aタグの下線消す text-decoration: none;
+・セクションに付与しているidをcssのwapperと同じ箇所に
+
+-------------------------------スタバ
+・border-radius: 10px;　角丸
+・文字間 letter-spacing
+・枠影 box-shadow: 1px 3px 1px 1px rgb(0 0 0 / 3%)
+・justify-content: center;で中央
+・gap
+・表の作成
+・4番目以降の要素
+　：nth-child(n+4)
+・レスポンシブで画像切替 pictureタグ
+　<a href="https://www.starbucks.co.jp/gift/ochugen/?nid=tbn_02_pc">
+  <picture>
+  <source srcset="画像" alt="" media="(max-width: 1022px)">
+  <img src="画像" alt=""></a>
+　</picture>
+　
